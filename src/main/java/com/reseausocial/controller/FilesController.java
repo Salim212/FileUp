@@ -1,9 +1,10 @@
-package com.frontbackend.springboot.controller;
+package com.reseausocial.controller;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+import com.reseausocial.service.FileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -18,9 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.frontbackend.springboot.model.FileEntity;
-import com.frontbackend.springboot.model.FileResponse;
-import com.frontbackend.springboot.service.FileService;
+import com.reseausocial.model.FileEntity;
+import com.reseausocial.model.FileResponse;
 
 @RestController
 @RequestMapping("files")

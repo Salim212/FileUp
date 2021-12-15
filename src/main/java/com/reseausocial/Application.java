@@ -1,4 +1,4 @@
-package com.frontbackend.springboot;
+package com.reseausocial;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

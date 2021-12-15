@@ -1,16 +1,16 @@
-package com.frontbackend.springboot.service;
+package com.reseausocial.service;
 
 import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
 
+import com.reseausocial.repository.FileRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.frontbackend.springboot.model.FileEntity;
-import com.frontbackend.springboot.repository.FileRepository;
+import com.reseausocial.model.FileEntity;
 
 @Service
 public class FileService {

@@ -1,4 +1,4 @@
-package com.frontbackend.springboot.model;
+package com.reseausocial.model;
 
 public class FileResponse {
 

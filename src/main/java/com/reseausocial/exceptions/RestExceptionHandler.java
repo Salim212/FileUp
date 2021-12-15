@@ -1,4 +1,4 @@
-package com.frontbackend.springboot.exceptions;
+package com.reseausocial.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
